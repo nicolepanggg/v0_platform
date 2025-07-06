@@ -1,0 +1,8 @@
+@utility hello {
+  background-color: aquamarine;
+}
+
+.card {
+    @apply text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm hello;
+    background-color: var(--third);
+}  
